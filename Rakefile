@@ -1,15 +1,4 @@
-begin
-  require 'bundler/setup'
-rescue LoadError
-  puts "Couldn't find Bundler!"
-  puts
-  puts "Please run:"
-  puts "   gem install bundler"
-  puts
-  puts "...and then try again."
-  puts
-  exit
-end
+require 'bundler/setup'
 
 # dependencies
 require 'json'
